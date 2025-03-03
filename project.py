@@ -1,8 +1,8 @@
 import random
-while True:
+while True:# play as much as you can
     computer = random.choice([1,0,-1])
     youstr = input("Enter your choice(\"R\" for Rock, \"P\" for Paper, \"S\" for Scissor): ").upper()
-    if youstr == 'Q':
+    if youstr == 'Q':# to exit the game
         print("Thanks for Playing")
         break
     dict1 = {"R": 1, "P": 0, "S": -1}
